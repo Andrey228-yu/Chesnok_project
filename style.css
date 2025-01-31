@@ -1,0 +1,59 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: rgba(137, 43, 226, 0.336);
+}
+.header .block {
+    padding: 10px;
+}
+.header .block .stroka {
+    background-color: rgb(124, 204, 151);
+}
+.main {
+    display: grid;
+    grid-template: repeat(2, auto)/repeat(2, auto);
+}
+.main .img {
+    width: 500px;
+    height: 500px;
+}
+.suport {
+    background-image: url("suport.webp");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.suport .text {
+    color: aliceblue;
+}
+.news {
+    background-image: url("news.webp");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.soob {
+    background-image: url("soob.webp");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.soob .text {
+    color: azure;
+}
+.footer {
+    width: 50%;
+    display: grid;
+    grid-template: repeat(4, auto)/repeat(3, 1fr);
+    color: rgb(127, 134, 138);
+    a:link { color: rgb(245, 134, 255); }
+    a:visited { color: rgb(255, 254, 190); }  
+    a:hover { color: rgb(179, 187, 255); }  
+    a:active { color: rgb(193, 255, 180); } 
+}
+.footer .icon {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+}
+.footer_background {
+    background-color: black;
+}
